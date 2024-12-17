@@ -62,7 +62,7 @@ spring:
        
 # Database Settings
   datasource:
-    url: jdbc:postgresql://database-1.cja20k6ki08a.us-east-2.rds.amazonaws.com/feedApp
+    url: jdbc:postgresql://localhost:5432/feedAppModal
     username: postgres
     password: pg123
     hikari:
@@ -83,9 +83,9 @@ spring:
   
 # Database Settings 
   datasource:
-    url: jdbc:postgresql://localhost:5432/feedAppModal
+    url: jdbc:postgresql://database-1.cja20k6ki08a.us-east-2.rds.amazonaws.com/feedApp
     username: postgres
-    password: pg123
+    password: postgres
     hikari:
       maximum-pool-size: 2
   jpa:
