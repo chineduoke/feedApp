@@ -10,7 +10,7 @@ logging.level:
 # Active Profile
 spring:
   profiles:
-    active: default
+    active: prod
     
 # Banner Text
   banner:
@@ -24,8 +24,8 @@ spring:
       
 # Email Settings
   mail:
-    username: chineduokechukwu788@gmail.com
-    password: kyhlltzzczgrdhbn
+    username: fokechukwu146@gmail.com
+    password: fnlftssqghhtriig 
     host: smtp.gmail.com
     port: 587
     protocol: smtp
@@ -62,7 +62,7 @@ spring:
        
 # Database Settings
   datasource:
-    url: jdbc:postgresql://localhost:5432/feedapp
+    url: jdbc:postgresql://database-1.cja20k6ki08a.us-east-2.rds.amazonaws.com/feedApp
     username: postgres
     password: pg123
     hikari:
@@ -83,7 +83,7 @@ spring:
   
 # Database Settings 
   datasource:
-    url: jdbc:postgresql://localhost:5432/feedapp
+    url: jdbc:postgresql://localhost:5432/feedAppModal
     username: postgres
     password: pg123
     hikari:

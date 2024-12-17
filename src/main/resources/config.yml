@@ -15,7 +15,7 @@ jwt:
     
 # Client Configuration  
 client:
-  url: http://localhost:3000
+  url: http://feedappteam3.s3-website.us-east-2.amazonaws.com
   email:
     verify: 
       param: user/verifyEmail
